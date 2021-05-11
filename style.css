@@ -1,0 +1,57 @@
+body {
+    /*background-color: rgb(255,255,128);*/
+background-image : url("neco.jpg");
+
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: pink;
+}
+
+header {
+    padding: 40px;
+    height: 80px;
+    color: rebeccapurple;
+    border-color: red #32a1ce;
+border-style: solid;
+    border-width: 15px;
+    border-color: red rgb(240,30,50,.7) green;
+line-height: 100%;
+    font-size: 1.5rem;
+}
+
+nav {
+    padding: 8px 40px;
+    background-color: lightblue;
+    color:#00ff00;
+border-style: solid;
+    border-width: 15px;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    font-size: 1rem;
+}
+
+nav li{
+    background-color: pink;
+    font-size: 0.5rem;
+}
+article {
+    padding: 40px;
+    min-height : 400px;
+    color: hsl(30,100%,50%);
+border-style: solid;
+    border-width: 15px;
+    border-color: red rgba(170, 50, 220, .6) green;
+   font-size: 50%;
+}
+
+footer {
+    padding: 40px;
+    height: 40px;
+    background-color : rgba(117,190,218,0.5);
+    border-style: solid;
+        border-width: 15px;
+        border-color: red #32a1ce;
+    font-size: 2em;
+}
